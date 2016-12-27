@@ -1,9 +1,11 @@
 # README
-## This is the README for the extension "collector" 
+## This is the README for the extension "html-info-collector" 
 
 This extension aims to collect the Id, Class and Data info for js.
 
 The extension will collect these info and give a hint when you write js with jquery.
+
+Its source is in [GitHub](https://github.com/smallp/vscode-info-collector). If you have any bug or suggestion, please add a issue here.
 
 ## Usage
 Here is the HTML:
@@ -11,7 +13,7 @@ Here is the HTML:
 <html>
 <body>
     <div id="test"></div>
-    <div class="fuck"></div>
+    <div class="foo"></div>
     <div class="nimei class" data-data=""></div>
 <script src="t.js"></script>
 </body>
