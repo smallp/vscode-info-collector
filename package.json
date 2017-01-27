@@ -1,9 +1,9 @@
 {
-	"name": "html info collector",
+	"name": "html-info-collector",
 	"description": "To collect class, id and data for js.",
 	"author": "Small",
 	"license": "MIT",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher":"small",
 	"engines": {
 		"vscode": "^1.4.0"
@@ -16,6 +16,13 @@
 		"onLanguage:html"
 	],
 	"main": "./out/src/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smallp/vscode-info-collector.git"
+	},
+	"bugs": {
+		"url": "https://github.com/smallp/vscode-info-collector/issues"
+	},
 	"contributes": {
 	},	
 	"scripts": {

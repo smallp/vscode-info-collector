@@ -83,13 +83,16 @@ class sing {
                     t = t.substr(0, t.length - 1);
                 }
                 if (t.endsWith('.js')) {
-                    if (t in this.link)
-                        this.link[t].push(uri);
+                    if (t in this.link) {
+                        if (uri in this.link[t])
+                            this.link[t].push(uri);
+                    }
                     else
                         this.link[t] = [uri];
                 }
             }
         }
+        this.link[uri] = [uri];
     }
     //remove repeated item and return completeItem list
     fitter(arr, filename) {
