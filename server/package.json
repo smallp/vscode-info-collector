@@ -1,17 +1,18 @@
 {
-	"name": "language-server-example",
-	"description": "Example implementation of a language server in node.",
-	"version": "0.0.1",
-	"author": "Microsoft Corporation",
+	"name": "small-collector",
+	"description": "Language server in node for small-collector.",
+	"version": "0.1.0",
+	"author": "small",
 	"license": "MIT",
 	"engines": {
 		"node": "*"
 	},
 	"dependencies": {
-		"vscode-languageserver": "^2.2.0"
+		"vscode-languageserver": "^3.0.4"
 	},
 	"devDependencies": {
-		"typescript": "^1.8.9"
+		"@types/node": "^6.0.52",
+		"typescript": "^2.1.5"
 	},
 	"scripts": {
 		"compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
